@@ -1,0 +1,13 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header, .container {
+    width: 600px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
