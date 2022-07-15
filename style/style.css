@@ -1,27 +1,80 @@
 body {
-    font-family: 'Lato', sans-serif;
+    margin: 0;
     font-size: 18px;
+    font-family: "Lato";
+    color: #2e354f;
 }
 
-header, .container {
-    width: 620px;
-    border: 1px solid red;
-    margin: 0 auto;
-}
-
-img {
-    max-width: 100%;
+h1,
+h2,
+.text-bold {
+    font-weight: 900;
 }
 
 h1 {
-    font-weight: 900;
     font-size: 36px;
+    margin: 0;
 }
 
 h2 {
     font-size: 24px;
+    color: #ef5839;
 }
 
-.text-bold {
+a {
+    color: #ef5839;
+}
+
+a:hover, 
+a:focus {
+    color: #d4b44c;
+}
+
+header {
+    background: #2e354f;
+    padding: 45px 0;
+    color: #fff;
+}
+
+section{
+    padding: 45px 0;
+}
+
+.section-two {
+    background: #2e354f;
+    color: #fff;    
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
     font-weight: 900;
+}
+
+.btn-primary {
+    background: #ef5839;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #39d0ef;
+    color: #393939;
+}
+.btn-secondary {
+    background: #fff;
+    color: #000;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background: #000;
+    color:#fff;
+}
+
+.container, h1 {
+    margin: 0 20px;
+    width: 620px;
+    margin: 0 auto;
 }
